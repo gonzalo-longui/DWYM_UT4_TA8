@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.taskInput {
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #eeeeee;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.taskCard {
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #eeeeee;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  position: relative;
+}
+
+.iconoEliminar {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  color: darkred;
+  margin-right: 5px;
+  transform: translateY(-50%);
+}
+
+li:hover .iconoEliminar {
+  display: block;
+}
